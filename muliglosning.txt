@@ -13,7 +13,7 @@ for (int nr2=0;nr2<total_planets;nr2++){
 for (int nr2=0;nr2<total_planets;nr2++){
 	if (nr2!=nr1){
 		planet &other =all_planets[nr2];
-		GravitationalForce(current, other, Fxewn,Fynew,Fznew,epsilon);
+		GravitationalForce(current, other, Fxnew,Fynew,Fznew,epsilon);
 	}
 }
 
