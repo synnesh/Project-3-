@@ -37,7 +37,7 @@ int main(int argc, char* argv[])
     double vy = 8.75;
     double r = sqrt(x*x+y*y);
 
-//Verlet:
+//Verlet: 
     ofile << N+1<<" ";
     ofile << t_max<<" ";
     ofile << vy<<"\n";
